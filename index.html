@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eramed Engineering & Pharmaceuticals</title>
+    <link rel="icon" type="image/x-icon" href="images/social media/ico.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- GREEN SOCIAL BAR -->
+    <div class="social-bar">
+        <div class="social-container">
+            <div class="social-icons">
+                <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+
+                <div class="search-box">
+                    <input type="text" placeholder="Search ...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHITE NAVIGATION BAR -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/refined log.jpg">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#about">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about">Company Overview</a></li>
+                        <li><a href="#mission">Mission & Values</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#products">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#products">All Products</a></li>
+                        <li><a href="#manufacturing">Manufacturing</a></li>
+                        <li><a href="#clients">Clients & Partners</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#why-choose">Why you Choose Us?</a></li>
+
+                <li class="dropdown">
+                    <a href="#resources">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#news">News & Blog</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#value-content">Value-Added Content</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#contact">Contact</a>
+                    <ul class="dropdown-menu contact-dropdown">
+                        <li><a href="#locations">Our Locations</a></li>
+                        <li><a href="#appointment">Book Appointment</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <select id="language-selector" onchange="changeLanguage()">
+                        <option value="en">English</option>
+                        <option value="am">Amharic</option>
+                        <option value="zh">Chinese</option>
+                        <option value="fr">French</option>
+                        <option value="hi">Hindi</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Updated Hero Section HTML -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Image Slider (Left Side) -->
+            <div class="hero-slider">
+                <div class="slider-track">
+                    <div class="slide">
+                        <img src="images/OFFICE BUILDING.jpg" alt="Our Headquarters">
+                        <div class="slide-caption">Our Office </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/Medicines & Pharmaceuticals/stetescope.jpeg">
+                        <div class="slide-caption"> Quality products</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/manufacturing/photo_2025-04-11_08-43-56.jpg" alt="Quality Products">
+                        <div class="slide-caption">Quality Medical Equipment Manufacturing</div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-dot active"></button>
+                    <button class="slider-dot"></button>
+                    <button class="slider-dot"></button>
+                </div>
+            </div>
+
+            <!-- Content (Right Side) -->
+            <div class="hero-content">
+                <div class="content-wrapper">
+                    <h1>Defining Quality in Medical Engineering and pharmaceuticals</h1>
+                    <p class="lead">We import, manufacture, and supply top-tier medical equipment and pharmaceuticals.
+                    </p>
+                    <a href="#contact" class="cta-button1">Get in Touch</a>
+                </div>
+            </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <!-- Animated Background -->
+        <div class="particles-background" id="particles-js"></div>
+
+        <!-- Floating Breadcrumb -->
+        <div class="floating-breadcrumb">
+            <span class="crumb">Home</span>
+            <span class="crumb active">About Era Med</span>
+        </div>
+
+        <!-- Hero Header with Parallax -->
+        <div class="about-hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Built to Serve<p class="lead">Founded in 2019 in Addis Ababa, Era Med
+                            emerged from a heartfelt mission: to
+                            make reliable, high-quality medical care accessible across Ethiopia.</p>
+                        <span class="title-line">Grown by Purpose</span>
+                        <p>In 2019, we began with 5 million ETB in revenue and a bold vision. By 2024, we reached
+                            134 million ETB — a reflection not just of numbers, but of lives changed. Clinics
+                            stocked, patients served, jobs created — our growth is measured by impact, not income.
+                        </p>
+                    </span>
+
+
+                </h1>
+                <div class="hero-scroll-indicator">
+                    <span class="scroll-text">Explore Our Story</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-container">
+            <!-- Company Overview with Interactive Stats -->
+            <div class="about-card overview-card">
+                <div class="section-header1">
+                    <h2>Our Journey</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="story-grid">
+                    <div class="story-text">
+
+                        <p>From humble beginnings importing essential tools, we've grown into a thriving, purpose-driven
+                            company manufacturing and distributing life-saving solutions. Our compass remains clear —
+                            integrity, compassion, and excellence in every step.</p>
+
+                        <div class="highlight-box">
+
+                        </div>
+                    </div>
+
+                    <div class="story-visual">
+                        <div class="interactive-stats">
+                            <div class="stat-item" data-target="100">
+                                <div class="stat-number">100+</div>
+                                <div class="stat-label">Dedicated Employees</div>
+                            </div>
+                            <div class="stat-item" data-target="134">
+                                <div class="stat-number">134</div>
+                                <div class="stat-label">Million ETB Revenue (2024)</div>
+                            </div>
+                            <div class="stat-item" data-target="60">
+                                <div class="stat-number">60+</div>
+                                <div class="stat-label">Government/NGO Contracts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission & Vision with Flip Cards -->
+            <div class="mv-section">
+                <div class="section-header">
+                    <h2>Our Purpose</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="mv-grid">
+                    <div class="mv-card">
+                        <div class="mv-card-inner">
+                            <div class="mv-card-front vision-card">
+                                <div class="mv-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z" />
+                                    </svg>
+                                </div>
+                                <h3>Our Vision</h3>
+                                <p>We envision an Ethiopia where every person has access to reliable healthcare...</p>
+                                <div class="flip-indicator">Click to read more</div>
+                            </div>
+                            <div class="mv-card-back">
+                                <p>We envision an Ethiopia — and a world — where every person, regardless of income or
+                                    location, has access to reliable, high-quality healthcare. Our vision is to become a
+                                    leading force in Africa's medical future by championing innovation, local capacity,
+                                    and ethical impact. At Era Med, we see a future where healing is not a luxury, but a
+                                    right — and we're committed to building that future, one life at a time.</p>
+                                <div class="flip-indicator">Click to return</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mv-card">
+                        <div class="mv-card-inner">
+                            <div class="mv-card-front mission-card">
+                                <div class="mv-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M3,3H21V7H3V3M4,8H20V21H4V8M9.5,11A0.5,0.5 0 0,0 9,11.5V13H15V11.5A0.5,0.5 0 0,0 14.5,11H9.5Z" />
+                                    </svg>
+                                </div>
+                                <h3>Our Mission</h3>
+                                <p>We believe healthcare is a right, not a privilege...</p>
+                                <div class="flip-indicator">Click to read more</div>
+                            </div>
+                            <div class="mv-card-back">
+                                <p>We believe healthcare is a right, not a privilege. Through innovation in biomedical
+                                    engineering and pharmaceuticals, we're closing the gap between need and access — one
+                                    product, one life, one community at a time. Every life matters — and quality
+                                    healthcare should never be out of reach. Through advanced biomedical engineering and
+                                    pharmaceutical innovation, we work to close the gap between need and access. Our
+                                    commitment is not only to deliver trusted medical products, but to restore dignity,
+                                    hope, and health where it's needed most.</p>
+                                <div class="flip-indicator">Click to return</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Timeline -->
+            <div class="timeline-section">
+                <div class="section-header">
+                    <h2>Our History of Progress</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-progress"></div>
+
+                    <div class="timeline-items">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">2019</div>
+                            <div class="timeline-content">
+                                <h4>Foundation</h4>
+                                <p>Established as Eramed Pharmaceuticals with 5M ETB initial capital</p>
+                                <div class="timeline-image" img src="images/manufacturing/office3.jpg"
+                                    alt="Where we start">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">2024</div>
+                            <div class="timeline-content">
+                                <h4>Expansion</h4>
+                                <p>Launched our first manufacturing facility and expanded product lines</p>
+                                <div class="timeline-image" img src="images/manufacturing/team.jpg"
+                                    alt="Pharmaceuticals">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">2024</div>
+                            <div class="timeline-content">
+                                <h4>Milestone</h4>
+                                <p>Reached 134M ETB annual revenue and expanded to 100+ employees</p>
+                                <div class="timeline-image" img src="images/manufacturing/team2.jpg"
+                                    alt="Pharmaceuticals">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Animated Values Section -->
+            <div class="values-section">
+                <div class="section-header">
+                    <h2>Our Core Values</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="values-carousel">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Humanity</h3>
+                        <p>We prioritize human life in every decision, ensuring our products meet the highest quality
+                            standards for patient care.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2L4,5V11.09C4,16.14 7.41,20.85 12,22C16.59,20.85 20,16.14 20,11.09V5L12,2Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Commitment</h3>
+                        <p>Dedicated to protecting health through reliable delivery of services and products until our
+                            goals are achieved.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.1 14.8,9.5V11C15.4,11 16,11.6 16,12.3V15.8C16,16.4 15.4,17 14.7,17H9.2C8.6,17 8,16.4 8,15.7V12.2C8,11.6 8.6,11 9.2,11V9.5C9.2,8.1 10.6,7 12,7M12,8.2C11.2,8.2 10.5,8.7 10.5,9.5V11H13.5V9.5C13.5,8.7 12.8,8.2 12,8.2Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Integrity</h3>
+                        <p>We keep our promises to protect people's health through honest business practices and quality
+                            products.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Customer Centric</h3>
+                        <p>Our success is measured by fulfilling customer needs with respect and excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="products" class="products-section">
+        <div class="section-header2">
+            <h2>Our Products & Services</h2>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="medicine">Medicines</button>
+                <button class="filter-btn" data-filter="equipment">Equipment</button>
+                <button class="filter-btn" data-filter="supplies">Supplies</button>
+                <button class="filter-btn" data-filter="services">Services</button>
+            </div>
+        </div>
+
+        <div class="product-slider">
+            <div class="slider-container">
+                <div class="product-grid">
+                    <!-- Medicine Products -->
+                    <div class="product-item" data-category="medicine">
+                        <div class="product-img-container">
+                            <img src="images/Medicines & Pharmaceuticals/cefra.jpeg" alt="Pharmaceuticals">
+                            <div class="product-badge1">On stock</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pharmaceuticals</h3>
+                            <p>FDA-approved medicines with guaranteed efficacy</p>
+                            <div class="product-meta">
+                                <span class="price">500 ETB</span>
+                                <button class="quick-view">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Equipment Products -->
+                    <div class="product-item" data-category="equipment">
+                        <div class="product-img-container">
+                            <img src="images/Medical Equipment and supplies/tens.jpeg" alt="Medical Equipment">
+                            <div class="product-badge1">physio</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Medical Equipment</h3>
+                            <p>Advanced medical devices for accurate diagnosis</p>
+                            <div class="product-meta">
+                                <span class="price">312,000 ETB </span>
+                                <button class="quick-view">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Supplies Products -->
+                    <div class="product-item" data-category="supplies">
+                        <div class="product-img-container">
+                            <img src="images/Medical Equipment and supplies/cpwheelchair.jpeg" alt="Rehabilitation">
+                            <div class="product-badge1">cp wheelchair </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Rehabilation devices</h3>
+                            <p>Range of devices</p>
+                            <div class="product-meta">
+                                <span class="price">90,000 ETB</span>
+                                <button class="quick-view">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="product-item" data-category="services">
+                        <div class="product-img-container">
+                            <img src="images/Medical Equipment and supplies/SERVICE 1.jpg" alt="Maintenance Services">
+                            <div class="product-badge1">24/7 Support</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Equipment Maintenance</h3>
+                            <p>Certified technical support and repairs</p>
+                            <div class="product-meta">
+                                <span class="price">Contact for Quote</span>
+                                <button class="quick-view">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-nav prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-nav next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+        <div class="section-footerp">
+            <a href="#all-products" class="cta-buttonp">
+                View All Products
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="med-manufacturing">
+        <div class="med-container">
+            <div class="med-header">
+                <h2>Medical Equipment Manufacturing</h2>
+                <p class="subtitle">EFDA & ISO 13485 Certified Production of Hospital Equipments,Textiles & supplies</p>
+                <div class="divider"></div>
+            </div>
+
+            <!-- ISO Process Timeline -->
+            <div class="process-timeline">
+                <!-- Step 1 -->
+                <div class="process-step">
+                    <div class="step-marker">1</div>
+                    <div class="step-content">
+                        <h3>Material Selection</h3>
+                        <p>Medical-grade stainless steel and FDA-approved textiles for surgical drapes, Kelly clamps,
+                            and aprons</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-step">
+                    <div class="step-marker">2</div>
+                    <div class="step-content">
+                        <h3>Precision Fabrication</h3>
+                        <p>Standard machining for instruments products</p>
+                    </div>
+                </div>
+
+
+                <!-- Step 4 -->
+                <div class="process-step">
+                    <div class="step-marker">4</div>
+                    <div class="step-content">
+                        <h3>Quality Assurance</h3>
+                        <p>3-stage inspection process compliant with ISO 13485:2016</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Showcase -->
+            <div class="product-showcase">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Medical Equipment and supplies/apron.jpeg" alt="Surgical Apron">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fluid-Resistant Aprons</h3>
+                        <p>EN 13795 compliant surgical aprons with reinforced stitching</p>
+                        <p class="spec">Available in 3 sizes</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/manufacturing/1.jpg" alt="examnation screen">
+                    </div>
+                    <div class="product-info">
+                        <h3>examnation screen</h3>
+                        <p>German stainless steel, 6.5" and 8" sizes</p>
+                        <p class="spec">ISO 7153-1 compliant</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/manufacturing/2.jpg" alt="ULTRASOUND TROLLEY">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ultrasound trolley</h3>
+                        <p>Standard Fabrication</p>
+                    </div>
+                </div>
+
+
+                <!-- Certifications -->
+                <div class="certifications">
+                    <div class="cert-badge">
+                        <img src="images/EFDA ICON.jpeg" alt="EFDA">
+                        <p>FDA Registered</p>
+                    </div>
+                    <div class="cert-badge">
+                        <img src="images/ISO ICON.jpeg" alt="FDA">
+                        <p>ISO</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section class="why-choose-era">
+        <!-- Decorative Background Elements -->
+        <div class="bg-dots"></div>
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+
+        <!-- Header -->
+        <div class="section-headerwhy">
+            <h2>Why you Choose Era Med?</h2>
+            <p class="subtitle">Pioneering excellence in medical equipment manufacturing and pharmaceutical distribution
+            </p>
+        </div>
+
+        <!-- Animated Stats -->
+        <div class="era-stats">
+            <div class="stat-circle" data-target="1000">
+                <i class="fas fa-pills"></i>
+                <span class="stat-number">0</span>+
+                <p>Products</p>
+            </div>
+            <div class="stat-circle" data-target="10">
+                <i class="fas fa-handshake"></i>
+                <span class="stat-number">0</span>+
+                <p>Global Partners</p>
+            </div>
+            <div class="stat-circle" data-target="400">
+                <i class="fas fa-hospital-user"></i>
+                <span class="stat-number">0</span>+
+                <p>Satisfied Clients</p>
+            </div>
+            <div class="stat-circle" data-target="10">
+                <i class="fas fa-history"></i>
+                <span class="stat-number">0</span>+
+                <p>Years Experience</p>
+            </div>
+        </div>
+
+        <!-- Reasons Grid -->
+        <div class="reasons-grid">
+            <!-- 1. Expertise -->
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <h3>Our Expertise</h3>
+                <p>Years of experience as industry leaders in medical equipment manufacturing with a proven track
+                    record</p>
+            </div>
+
+            <!-- 2. Technology -->
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Cutting-Edge Technology</h3>
+                <p>Expert Assisted quality control and automated production lines ensuring precision in every product
+                </p>
+            </div>
+
+            <!-- 3. Quality -->
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Commitment to Quality</h3>
+                <p>FDA and ISO 13485 certified facilities with rigorous international testing protocols</p>
+            </div>
+
+            <!-- 4. Customer Focus -->
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Customer-Centric Approach</h3>
+                <p>Support teams and customized solutions for hospitals, clinics, and distributors</p>
+            </div>
+
+            <!-- 5. Global Reach -->
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fas fa-globe-africa"></i>
+                </div>
+                <h3>Global & Local Reach</h3>
+                <p>Plan to Serve 5+ African nations while maintaining strong Ethiopian roots and market leadership</p>
+            </div>
+
+            <!-- 6. Sustainability -->
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Sustainability & Ethics</h3>
+                <p>FDA-compliant eco-friendly production and ethical business practices at every level</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="team-header">
+            <h2>A Team of Experts</h2>
+            <p class="team-subtitle">Professionals dedicated to making a tangible difference in healthcare. From
+                technical experts to innovative strategists, we deliver results that matter.</p>
+        </div>
+
+        <div class="team-grid">
+
+            <div class="team-card">
+                <img src="images/harefg.png" alt="Haregwoin Ayele" class="team-img">
+                <div class="team-info">
+                    <h3>Haregwoin Ayele</h3>
+                    <p class="role">Manager, Senior Expert Pharmacist</p>
+                </div>
+            </div>
+
+
+            <div class="team-card">
+                <img src="images/aman.png" alt="Amanuel Solomon" class="team-img">
+                <div class="team-info">
+                    <h3>Amanuel Solomon</h3>
+                    <p class="role">Deputy Manager, Supply Chain Manager</p>
+
+                </div>
+            </div>
+
+
+            <div class="team-card">
+                <img src="images/team3.jpg" alt="Feven Solomon" class="team-img">
+                <div class="team-info">
+                    <h3>Feven Solomon</h3>
+                    <p class="role">Health Economist & Environmental Expert</p>
+
+                </div>
+            </div>
+
+
+            <div class="team-card">
+                <img src="images/placeholder.jpg" alt="Amarech Getenet" class="team-img">
+                <div class="team-info">
+                    <h3>Amarech Getenet</h3>
+                    <p class="role">Technical Manager</p>
+                    <p class="qualification">Expert Pharmacist</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="images/placeholder.jpg" alt="Kalkidane Fikadu" class="team-img">
+                <div class="team-info">
+                    <h3>Kalkidane Fikadu</h3>
+                    <p class="role">Pharmacist store manager import</p>
+                    <p class="qualification">Expert Pharmacist</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="images/placeholder.jpg" alt="Zelalaem Tibebe " class="team-img">
+                <div class="team-info">
+                    <h3>Zelalaem Tibebe </h3>
+                    <p class="role">General Auditor </p>
+                    <p class="qualification">accounting and administration</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="images/placeholder.jpg" alt="Tiruedil Desta " class="team-img">
+                <div class="team-info">
+                    <h3>Tiruedil Desta </h3>
+                    <p class="role">Pharmacist store manager wholesale </p>
+                    <p class="qualification">Pharmacist</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="images/placeholder.jpg" alt="Sirak Taye" class="team-img">
+                <div class="team-info">
+                    <h3>Sirak Taye</h3>
+                    <p class="role">General manager</p>
+                    <p class="qualification">Business Management and public administration,
+                        electrical and computer Engineering</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="cta-buttonteam">View All Team Members</a>
+    </section>
+
+
+    <section id="clients-partners">
+        <!-- Clients Section - Interactive 3D Carousel -->
+        <div class="clients-section">
+            <div class="section-header">
+                <h2>Our Valued Clients</h2>
+                <p class="section-subtitle">Trusted by leading organizations worldwide</p>
+                <div class="carousel-controls">
+                    <button class="control-btn prev-btn" aria-label="Previous client">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="control-btn next-btn" aria-label="Next client">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="orbital-carousel">
+                <div class="orbit">
+                    <div class="orbital-item active" data-index="0">
+                        <img src="images/partners/intersnational rescue committe.jpeg"
+                            alt="International Rescue Committee">
+                        <div class="client-tooltip">Global Humanitarian Org</div>
+                    </div>
+                    <div class="orbital-item" data-index="1">
+                        <img src="images/partners/amref.png" alt="AMREF">
+                        <div class="client-tooltip">African Medical Research</div>
+                    </div>
+                    <div class="orbital-item active" data-index="0">
+                        <img src="images/partners/child fund.jpeg" alt="child fund">
+                        <div class="client-tooltip">child fund</div>
+                    </div>
+                    <div class="orbital-item active" data-index="0">
+                        <img src="images/partners/ICRC.png" alt="ICRC">
+                        <div class="client-tooltip">ICRC</div>
+                    </div>
+                    <div class="orbital-item active" data-index="0">
+                        <img src="images/partners/world vission.png" alt="world vission">
+                        <div class="client-tooltip">world vission</div>
+                    </div>
+                    <div class="orbital-item active" data-index="0">
+                        <img src="images/partners/medical teams.png" alt="medical teams">
+                        <div class="client-tooltip">medical teams</div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="orbit-center"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Value-Added Content Section - Interactive Cards -->
+    <section id="value-content" class="value-content-section">
+        <div class="section-headerVA">
+            <h2 class="section-title">Value-Added <span class="highlight">Resources</span></h2>
+            <p class="section-subtitle">Explore our knowledge hub for healthcare innovation</p>
+        </div>
+
+        <div class="content-grid">
+            <!-- Whitepaper Card -->
+            <div class="content-card" data-category="research">
+                <div class="card-front">
+                    <div class="card-image">
+                        <img src="images/biomedical-engineering-current-research-banner.jpg" alt="Whitepaper"
+                            loading="lazy">
+                        <div class="card-badge1">Research</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Industry Whitepapers</h3>
+                        <p>In-depth research on medical advancements and industry trends</p>
+                        <div class="card-meta">
+                            <span class="file-type">PDF</span>
+                            <span class="file-size">2-5 MB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="back-content">
+                        <h4>Featured Whitepapers</h4>
+                        <ul class="resource-list">
+                            <li>2025 Global Pharma Trends</li>
+                            <li>Cold Chain Logistics Guide</li>
+                            <li>Regulatory Compliance Updates</li>
+                        </ul>
+                        <a href="#" class="cta-buttonVA">
+                            Download All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                <path
+                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case Study Card -->
+            <div class="content-card" data-category="success-stories">
+                <div class="card-front">
+                    <div class="card-image">
+                        <img src="images/CASESTUDY.jpeg" alt="Case Study" loading="lazy">
+                        <div class="card-badge1">Success Story</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Case Studies</h3>
+                        <p>Real-world examples of our healthcare impact</p>
+                        <div class="card-meta">
+                            <span class="file-type">Interactive</span>
+                            <span class="stats">12+ Studies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="back-content">
+                        <h4>Recent Case Studies</h4>
+                        <ul class="resource-list">
+                            <li>Vaccine Distribution in Ethiopia</li>
+                            <li>Hospital Supply Chain Optimization</li>
+                            <li>Telemedicine Implementation</li>
+                        </ul>
+                        <a href="#" class="cta-buttonVA">
+                            View Portfolio
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Tutorial Card -->
+            <div class="content-card" data-category="education">
+                <div class="card-front">
+                    <div class="card-image">
+                        <img src="images/thamnial.png" alt="Video Tutorial" loading="lazy">
+                        <div class="card-badge1">Tutorial</div>
+                        <div class="play-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="white">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>How-To Videos</h3>
+                        <p>Product guides and expert demonstrations</p>
+                        <div class="card-meta">
+                            <span class="file-type">Video</span>
+                            <span class="stats">3-10 mins</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="back-content">
+                        <h4>Video Series</h4>
+                        <ul class="resource-list">
+                            <li>Equipment Setup Guides</li>
+                            <li>Software Walkthroughs</li>
+                            <li>Best Practice Webinars</li>
+                        </ul>
+                        <a href="https://youtu.be/aDAiktN-TgQ" class="cta-buttonVA" target="_blank">
+                            Watch Library
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View All Button -->
+        <div class="section-footer">
+            <a href="#" class="view-all-btn">
+                Browse All Resources
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+
+
+    <section id="recognition" class="recognition-section">
+        <div class="section-header">
+            <h2 class="section-title">Clients Testimonials</h2>
+            <p class="section-subtitle">Recognized by global health organizations for excellence in pharmaceutical
+                services</p>
+
+            <!-- Auto-Rotate Controls -->
+            <div class="rotation-controlsr">
+                <button id="pause-rotation" aria-label="Pause rotation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="6" y="4" width="4" height="16"></rect>
+                        <rect x="14" y="4" width="4" height="16"></rect>
+                    </svg>
+                </button>
+                <button id="play-rotation" aria-label="Play rotation" style="display:none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Desktop Grid -->
+        <div class="recognition-grid">
+            <!-- Award 1 -->
+            <div class="recognition-card featured" data-id="1">
+                <div class="certificate-frame">
+                    <img src="images/certificates/vouluntary st.pual.PNG" alt="st.PUAL Hospital Excellence Award"
+                        loading="lazy">
+                    <div class="certificate-overlay">
+                        <button class="download-btn" aria-label="Download certificate">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </button>
+                        <button class="zoom-btn" aria-label="Zoom certificate">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="recognition-details">
+                    <div class="org-logo">
+                        <img src="images/partners/pual.png" alt="st.pual" loading="lazy">
+                    </div>
+                    <h3>Excellence in Humanitarian activities</h3>
+                    <p class="issuer">St.pual medical college</p>
+                    <p class="quote">"For community based paticipation"</p>
+                    <div class="award-footer">
+                        <span class="year">2023</span>
+                        <a href="#" class="view-letter">View Recommendation Letter</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recognition-card featured" data-id="1">
+                <div class="certificate-frame">
+                    <img src="images/certificates/red cross.PNG" alt="Red cross humanitarian certificate"
+                        loading="lazy">
+                    <div class="certificate-overlay">
+                        <button class="download-btn" aria-label="Download certificate">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </button>
+                        <button class="zoom-btn" aria-label="Zoom certificate">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="recognition-details">
+                    <div class="org-logo">
+                        <img src="images/partners/ICRC.png" alt="ERCS" loading="lazy">
+                    </div>
+                    <h3>Excellence in Humanitarian Supply</h3>
+                    <p class="issuer">Ethiopian Red cross Society</p>
+                    <p class="quote">"For uninterrupted medical supply during crisis operations"</p>
+                    <div class="award-footer">
+                        <span class="year">2023</span>
+                        <a href="#" class="view-letter">View Recommendation Letter</a>
+                    </div>
+                </div>
+            </div>
+            <section></section>
+
+            <section id="careers" class="careers-section">
+                <div class="careers-hero">
+                    <div class="hero-contentc">
+                        <h2>Shape the Future of <span>Healthcare</span></h2>
+                        <p>Join Era Med's mission to revolutionize pharmaceutical services in Ethiopia and beyond</p>
+                        <div class="hero-buttonsc">
+                            <a href="#current-openings" class="cta-button-primary">View Open Positions</a>
+                            <a href="#why-join-us" class="cta-button-secondary">Why Join Us?</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/manufacturing/team.jpg" alt="Era Med team collaborating" loading="lazy">
+                    </div>
+                    <div>
+                        <img src="images/manufacturing/team2.jpg" alt="Era Med team collaborating" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Current Openings -->
+                <div id="current-openings" class="job-openings">
+                    <div class="section-headerj">
+                        <h3>Current <span>Opportunities</span>/Vacancies</span></h3>
+                        <p>Browse our latest job openings and find your perfect fit</p>
+                        <div class="job-filters">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="pharmacy">Pharmacy</button>
+                            <button class="filter-btn" data-filter="engineering">Engineering</button>
+                            <button class="filter-btn" data-filter="operations">Operations</button>
+                            <button class="filter-btn" data-filter="admin">Administration</button>
+                        </div>
+                    </div>
+
+                    <div class="jobs-grid">
+                        <!-- Job Posting 1 - Image Card Format -->
+                        <div class="job-card" data-category="pharmacy">
+                            <div class="job-image">
+                                <img src="images/vacancy.PNG" alt="IT technicial" loading="lazy">
+                                <div class="job-badge">Full-time</div>
+                                <div class="urgent-tag">Urgent</div>
+                            </div>
+                            <div class="job-content">
+                                <h4>Software Engineer/IT Technicial</h4>
+                                <div class="job-meta">
+                                    <span class="location">📍 Addis Ababa</span>
+                                    <span class="deadline">⏰ Apply by: April 30, 2025</span>
+                                </div>
+                                <p class="job-excerpt">Lead our IT team and ensure excellence in Digital IT dolution and
+                                    software development </p>
+                                <div class="job-actions">
+                                    <a href="#" class="view-details">Details</a>
+                                    <a href="#" class="apply-now">Quick Apply</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Job Posting 2 -->
+                        <div class="job-card" data-category="engineering">
+                            <div class="job-image">
+                                <img src="images/vacancy.PNG" alt="Welder" loading="lazy">
+                                <div class="job-badge">Full-time</div>
+                            </div>
+                            <div class="job-content">
+                                <h4>Welder</h4>
+                                <div class="job-meta">
+                                    <span class="location">📍 Addis Ababa</span>
+                                    <span class="deadline">⏰ Apply by: April 30, 2025</span>
+                                </div>
+                                <p class="job-excerpt">weld metals for production</p>
+                                <div class="job-actions">
+                                    <a href="#" class="view-details">Details</a>
+                                    <a href="#" class="apply-now">Quick Apply</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="job-newsletter">
+                        <h4>Get Job Alerts</h4>
+                        <p>Sign up to receive notifications when new positions open</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+
+        <!-- How We Hire -->
+        <div class="hiring-process">
+            <h3>Our <span>Hiring Process</span></h3>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h4>Application</h4>
+                    <p>Submit your application through our portal</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h4>Screening</h4>
+                    <p>HR team reviews your qualifications</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h4>Interviews</h4>
+                    <p>Meet with our hiring team (1-3 rounds)</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h4>Offer</h4>
+                    <p>Successful candidates receive an offer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="quote" class="quote-section">
+        <div class="quote-containerq">
+            <div class="quote-headerq">
+                <h2>Get Your Custom Quote</h2>
+                <p>Complete this form and we'll prepare a personalized proposal within 24 hours</p>
+            </div>
+
+            <div class="quote-wrapper">
+                <!-- Visual Progress Indicator -->
+                <div class="progress-steps">
+                    <div class="step active" data-step="1">
+                        <div class="step-circle">1</div>
+                        <p>Contact Info</p>
+                    </div>
+                    <div class="step" data-step="2">
+                        <div class="step-circle">2</div>
+                        <p>Product Selection</p>
+                    </div>
+                    <div class="step" data-step="3">
+                        <div class="step-circle">3</div>
+                        <p>Review & Submit</p>
+                    </div>
+                    <div class="progress-bar"></div>
+                </div>
+
+                <!-- Multi-Step Form -->
+                <form id="quoteForm" class="quote-form">
+                    <!-- Step 1: Contact Information -->
+                    <div class="form-step active" data-step="1">
+                        <div class="input-group floating-label">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Full Name*</label>
+                            <i class="fas fa-user"></i>
+                        </div>
+
+                        <div class="input-group floating-label">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Email*</label>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+
+                        <div class="input-group floating-label">
+                            <input type="tel" id="phone" name="phone" required placeholder=" ">
+                            <label for="phone">Phone Number*</label>
+                            <i class="fas fa-phone"></i>
+                        </div>
+
+                        <div class="input-group floating-label">
+                            <input type="text" id="company" name="company" placeholder=" ">
+                            <label for="company">Company/Organization</label>
+                            <i class="fas fa-building"></i>
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-next">Continue <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Product Selection -->
+                    <div class="form-step" data-step="2">
+                        <h3>What products are you interested in?</h3>
+
+                        <div class="product-selection">
+                            <div class="product-option">
+                                <input type="checkbox" id="product1" name="products[]" value="Surgical Instruments">
+                                <label for="product1">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Surgical Instruments</span>
+                                </label>
+                            </div>
+
+                            <div class="product-option">
+                                <input type="checkbox" id="product2" name="products[]" value="Hospital Textiles">
+                                <label for="product2">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Hospital Textiles</span>
+                                </label>
+                            </div>
+
+                            <div class="product-option">
+                                <input type="checkbox" id="product3" name="products[]" value="Medical Equipment">
+                                <label for="product3">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Medical Equipment</span>
+                                </label>
+                            </div>
+
+                            <div class="product-option">
+                                <input type="checkbox" id="product4" name="products[]" value="Pharmaceuticals">
+                                <label for="product4">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Pharmaceuticals</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="input-group floating-label">
+                            <textarea id="request" name="request" required placeholder=" "></textarea>
+                            <label for="request">Specific Requirements*</label>
+                            <i class="fas fa-edit"></i>
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-prev"><i class="fas fa-arrow-left"></i>
+                                Back</button>
+                            <button type="button" class="btn-next">Continue <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Review & Submit -->
+                    <div class="form-step" data-step="3">
+                        <h3>Review Your Quote Request</h3>
+
+                        <div class="review-summary">
+                            <div class="review-item">
+                                <h4>Contact Information</h4>
+                                <p id="review-name"></p>
+                                <p id="review-email"></p>
+                                <p id="review-phone"></p>
+                                <p id="review-company"></p>
+                            </div>
+
+                            <div class="review-item">
+                                <h4>Product Interests</h4>
+                                <ul id="review-products"></ul>
+                            </div>
+
+                            <div class="review-item">
+                                <h4>Special Requirements</h4>
+                                <p id="review-request"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-prev"><i class="fas fa-arrow-left"></i>
+                                Back</button>
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i> Submit Request
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Confirmation Modal -->
+        <div class="confirmation-modal">
+            <div class="modal-content">
+                <div class="success-animation">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                </div>
+                <h3>Request Received!</h3>
+                <p>We'll prepare your custom quote and send it to <strong id="confirm-email"></strong> within 24
+                    hours.
+                </p>
+                <p>A confirmation has been sent to your email.</p>
+                <button class="modal-close-btn">Close</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faq" class="faq-section">
+        <div class="faq-header">
+            <h2 class="section-titlefaq">Frequently Asked <span class="highlight">Questions</span></h2>
+            <p class="section-subtitlefaq">Find answers to common queries about our products and services</p>
+            <div class="faq-decoration">
+                <div class="decoration-leaf"></div>
+                <div class="decoration-circle"></div>
+            </div>
+        </div>
+
+        <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span class="question-text">What types of medical equipment do you manufacture and import?</span>
+                    <span class="toggle-icon">
+                        <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        <svg class="minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </span>
+                </button>
+                <div class="faq-answer">
+                    <div class="answer-content">
+                        <p>We specialize in a wide range of medical equipment, including diagnostic devices, hospital
+                            beds, surgical tools, and other critical healthcare equipment. We also import pharmaceutical
+                            supplies and medical consumables.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span class="question-text">Do you offer after-sales support for the equipment?</span>
+                    <span class="toggle-icon">
+                        <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        <svg class="minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </span>
+                </button>
+                <div class="faq-answer">
+                    <div class="answer-content">
+                        <p>Yes, we provide comprehensive after-sales support including installation, training, and
+                            maintenance for all the equipment we supply. Our team ensures that your medical equipment is
+                            functioning optimally at all times.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span class="question-text">How can I request a custom quote?</span>
+                    <span class="toggle-icon">
+                        <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        <svg class="minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </span>
+                </button>
+                <div class="faq-answer">
+                    <div class="answer-content">
+                        <p>You can book an appointment using our online scheduling form or contact us directly via phone
+                            or email.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-footer">
+            <p>Still have questions? <a href="#" class="contact-link">Contact our team</a> for personalized assistance.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+                <p class="section-subtitle">Connect with us for inquiries, partnerships, or support</p>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="social-media">
+                <h3>Visit us</h3>
+                <div class="social-grid">
+                    <a href="https://t.me/eramedpharm" target="_blank" class="social-item"
+                        data-tooltip="Customer Support">
+                        <img src="images/social media/customer support.jpeg" alt="Customer Service">
+                        <span>Support</span>
+                    </a>
+                    <a href="https://github.com/EraMedEngineeringAndPharmaceuticalPLC" target="_blank"
+                        class="social-item" data-tooltip="GitHub">
+                        <img src="images/social media/github.png" alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://web.facebook.com/eraethiop/?_rdc=1&_rdr#" target="_blank" class="social-item"
+                        data-tooltip="Facebook">
+                        <img src="images/social media/facebook.png" alt="Facebook">
+                        <span>Facebook</span>
+                    </a>
+                    <a href=" https://www.linkedin.com/in/era-med-engineering-and-pharmaceuticals-plc-937a6735a/"
+                        target="_blank" class="social-item" data-tooltip="LinkedIn">
+                        <img src="images/social media/linkdn.png" alt="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCfDwkia6vgwhCJVKx7s07ng" target="_blank"
+                        class="social-item" data-tooltip="YouTube">
+                        <img src="images/social media/u tube.png" alt="YouTube">
+                        <span>YouTube</span>
+
+                        <a href="https://twitter.com/eramedbiopharma" target="_blank" class="social-item"
+                            data-tooltip="Twitter/X">
+                            <img src="images/social media/twiter.png" alt="Twitter">
+                            <span>Twitter</span>
+                        </a>
+                        <a href="https://wa.me/251911234567" target="_blank" class="social-item"
+                            data-tooltip="WhatsApp">
+                            <img src="images/social media/whatsup.png" alt="WhatsApp">
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://t.me/eramedpharm" target="_blank" class="social-item" data-tooltip="Telegram">
+                            <img src="images/social media/teleg.png" alt="Telegram">
+                            <span>Support</span>
+                        </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Embedded Map -->
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.059959718807!2d38.731671537866326!3d9.041873558062795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b89a0f92dc9a3%3A0xbcff5cd8e6ef161b!2sEra%20Med%20Pharmaceticals%20PLC!5e0!3m2!1sen!2set!4v1744349957382!5m2!1sen!2set"
+                width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Era Med Pharmaceuticals PLC Location - Addisu Michael, Addis Ketema">
+            </iframe>
+        </div>
+    </section>
+
+    <section id="locations" class="locations">
+        <div class="section-header">
+            <h2>Our Locations</h2>
+        </div>
+
+        <div class="location-grid">
+            <!-- Contact Office -->
+            <div class="location-card contact-office">
+                <div class="location-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Contact Office</h3>
+                <div class="location-info">
+                    <p><i class="fas fa-location-dot"></i> Addis Ketema, Pastor</p>
+                    <p><i class="fas fa-phone"></i> +251 911 244 901</p>
+                    <p><i class="fas fa-envelope"></i> eramedpharmapro@gmail.com </p>
+                </div>
+                <button class="cta-button">
+                    <i class="fas fa-directions"></i> Get Directions
+                </button>
+            </div>
+
+            <!-- Operation Office -->
+            <div class="location-card operation-office">
+                <div class="location-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3>Operation Office</h3>
+                <div class="location-info">
+                    <p><i class="fas fa-location-dot"></i> Addis Ketema, Addisu Mikael</p>
+                    <p><i class="fas fa-phone"></i> +251 911 853 443 </p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-5PM</p>
+                </div>
+                <button class="cta-button">
+                    <i class="fas fa-directions"></i> Get Directions
+                </button>
+            </div>
+
+            <!-- Manufacturing Facility -->
+            <div class="location-card manufacturing">
+                <div class="location-icon">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <h3>Manufacturing Facility</h3>
+                <div class="location-info">
+                    <p><i class="fas fa-location-dot"></i> Winget</p>
+                    <p><i class="fas fa-phone"></i> +251 911 983 420</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 7AM-5PM</p>
+                </div>
+                <button class="cta-button">
+                    <i class="fas fa-directions"></i> Get Directions
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Footer Columns -->
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div class="footer-col company-info">
+                    <img src="images/refined log.jpg" alt="EraMed Logo" class="footer-logo" loading="lazy">
+
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="footer-legal">
+                        <p>&copy; 2025 Eramed Engineering & Pharmaceuticals. All rights reserved.</p>
+
+                    </div>
+                    <div class="developer-credit">
+                        <p>Developed by Digitalsolutionteam@ERAMED</a></p>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
